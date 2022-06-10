@@ -1,0 +1,101 @@
+body{
+    background-image: url("layered-waves-haikei\ \(1\).svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 640px;
+}
+
+.tab{
+    background: #bca8ff;
+    width: 85%;
+    height: 65%;
+    position: absolute;
+    top: 68px;
+    left: 141px;
+    border-radius: 5px;
+    border: 3px solid white;
+    outline: 3px solid white;
+}
+#username{
+    font-size: 50px;
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    color: #9c27b0;
+}
+
+#cropres{
+    font-size: 50px;
+    position: absolute;
+    left: 201px;
+    bottom: 325px;
+}
+#crop_left{
+    background-color: #f19000;
+    position: absolute;
+    width: 20px;
+    height: 100px;
+    top: 151px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #603e00;
+    z-index: 9999;
+}
+
+#crop_right{
+    background-color: #f19000;
+    position: absolute;
+    width: 20px;
+    height: 100px;
+    top: 151px;
+    right: 9px;
+    display: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid #603e00;
+    z-index: 9999;
+}
+
+#tosign{
+    position: absolute;
+    left: 1351px;
+    top: 11px;
+    width: 123px;
+    height: 42px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 26px;
+    background: #3f51b5;
+    color: white;
+    cursor: pointer;
+}
+
+.save{
+    position: absolute;
+    bottom: 85px;
+    height: 56px;
+    width: 150px;
+    left: 640px;
+    top: 426px;
+    border-radius: 10px;
+    background-color: #62cdff;
+    border: none !important;
+    outline: none !important;
+    box-shadow: 0;
+    transition: box-shadow 1s;
+    /* border: 1px solid #eee; */
+    box-shadow: 0 0 0 rgb(0 0 0 / 30%);
+    cursor: pointer;
+    box-shadow: 0 6px #3cace1;
+    color: white;
+    font-family: revert;
+    font-size: 20px;
+}
+
+.save:active {
+    /* background-color: #d8d8d8;
+    box-shadow: 0 4px #b6b6b6; */
+    transform: translateY(4px);
+}

@@ -1,0 +1,79 @@
+.block{
+    background-color: #f2f2f2;
+    width: 500px;
+    height: 680px;
+    position: absolute;
+    left: 640px;
+    top: 70px;
+    border-radius: 15px;
+    border: 2px solid;
+    outline: none;
+}
+body{
+   background-image: url("/static/css/loginimg.svg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size:cover;
+   margin: 0;
+}
+html{
+    height: 100%;
+}
+.input{
+    background-color: white;
+    border: 1px solid;
+    outline: none;
+    width: 350px;
+    position: absolute;
+    left: 75px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+#togglePassword{
+    position: absolute;
+    top: 333px;
+    left: 405px;
+    cursor: pointer;
+}
+
+.submit{
+    position: absolute;
+    border-radius: 15px;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(124 163 250);
+    top: 544px;
+    left: 190px;
+    outline: none;
+    border: none;
+    color: white;
+    box-shadow: 0 4px rgb(93 139 241);
+    cursor: pointer;
+}
+.submit:active {
+    /* background-color: #d8d8d8;
+    box-shadow: 0 4px #b6b6b6; */
+    transform: translateY(4px);
+}
+
+#togglePassword2{
+    position: absolute;
+    left: 406px;
+    top: 473px;
+    cursor: pointer;
+}
+
+.to{
+    outline: none;
+    border: none;
+    border-bottom: solid rgb(11, 163, 233) 1px;
+    color: rgb(11, 163, 233);
+    position: absolute;
+    top: 630px;;
+    left: 143px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
